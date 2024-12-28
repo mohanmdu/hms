@@ -7,6 +7,7 @@ import { User } from '../../model/user';
 import { ToastrService } from 'ngx-toastr';
 import { RentalService } from '../rental-service';
 
+
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
