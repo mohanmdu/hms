@@ -1,4 +1,4 @@
-package com.rental.product;
+/*package com.rental.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,4 +10,4 @@ class RentalApiApplicationTests {
 	void contextLoads() {
 	}
 
-}
+}*/

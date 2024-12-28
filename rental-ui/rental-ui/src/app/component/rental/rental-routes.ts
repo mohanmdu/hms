@@ -8,6 +8,7 @@ import { AuthGuard } from '../../auth-guard';
 import { UserComponent } from './user/user.component';
 import { AddEditUserModelComponent } from './user/add-edit-user-model/add-edit-user-model.component';
 import { CustomerComponent } from './customer/customer.component';
+import { AppointmentComponent } from './appointment/appointment.component';
 
 const rentalRoutes: Routes = [
     { path: 'product', component: ProductComponent , canActivate: [AuthGuard] },
@@ -15,6 +16,7 @@ const rentalRoutes: Routes = [
     { path: 'customer', component: CustomerComponent, canActivate: [AuthGuard] },
     { path: 'config', component: ConfigurationComponent, canActivate: [AuthGuard] },
     { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard] },
+    { path: 'appointment', component: AppointmentComponent, canActivate: [AuthGuard] },
     { path: 'user', component: UserComponent, canActivate: [AuthGuard] },
     { path: 'add-user', component: AddEditUserModelComponent, canActivate: [AuthGuard] },
     { path: 'edit-user/:id', component: AddEditUserModelComponent, canActivate: [AuthGuard] }
